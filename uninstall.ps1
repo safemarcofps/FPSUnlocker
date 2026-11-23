@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-$Source = 'https://raw.githubusercontent.com/fpsunlocker01/fakeauth/main/uninstall.ps1'
+$Source = 'https://raw.githubusercontent.com/safemarcofps/FPSUnlocker/main/uninstall.ps1'
 
 $admin = ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(
          [Security.Principal.WindowsBuiltInRole]::Administrator)
