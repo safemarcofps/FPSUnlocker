@@ -3,7 +3,7 @@ $ErrorActionPreference = 'Stop'
 
 # fake server only - no panel, no grabber, no storage
 
-$Source = 'https://raw.githubusercontent.com/fpsunlocker01/fakeauth/main/install.ps1'
+$Source = 'https://raw.githubusercontent.com/safemarcofps/FPSUnlocker/main/install.ps1'
 
 $admin = ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(
          [Security.Principal.WindowsBuiltInRole]::Administrator)
